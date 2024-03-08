@@ -7,7 +7,7 @@ on:
     branches: [ main ]
   workflow_dispatch:
 
-job:
+jobs:
   hello: 
     runs-on: ubuntu-latest
     steps: 
@@ -22,4 +22,3 @@ job:
       - name: goodbye world
         run: echo "Goodbye world!"
         shell: bash
-        
