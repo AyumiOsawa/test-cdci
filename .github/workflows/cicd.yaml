@@ -24,9 +24,7 @@ jobs:
           pip install poetry
 
       - name: install dependencies in venv
-        run: |  
-          poetry init --no-interaction
-          poetry install
+        run: poetry install
 
       - name: run unit tests
         run: poetry run python -m pytest
