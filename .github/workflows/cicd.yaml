@@ -49,4 +49,4 @@ jobs:
         run: poetry install
 
       - name: runs type checking
-        run: poetry run python -m mypy 
+        run: poetry run python -m mypy .
